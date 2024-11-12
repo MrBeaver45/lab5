@@ -1,0 +1,108 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff; /* Білий текст для контрасту */
+    background-color: #2e0000; /* Темно-червоний фон*/
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #5e0000; /* Насичений темно-червоний для заголовка */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ff6666; /* М'який червоний для посилань */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff0000; /* Яскравіший червоний при наведенні */
+}
+
+.socials a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff6666; /* Світлий червоний для соціальних посилань */
+    font-size: 2rem; /* Розмір значків */
+    transition: color 0.3s ease;
+}
+
+.socials a:hover {
+    color: #ff0000; /* Яскравіший червоний при наведенні */
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+    background-color: #7a0000; /* Трохи темніший червоний для секції проектів */
+    padding: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.project:hover {
+    background-color: #9b0000; /* Трохи світліший червоний при наведенні */
+}
+
+.project img {
+    max-width: 90%; /* Зменшення розміру зображення */
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1.5rem;
+}
+
+.blog-img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #5e0000;
+    padding: 1rem;
+    color: #ff6666;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+footer .socials a {
+    margin: 0 15px;
+}
